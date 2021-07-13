@@ -1,0 +1,33 @@
+:root{
+    --primary-text-color: #212121;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --text-color:  #757575;
+}
+.body {
+    position: relative;
+    width: 1600px;
+    height: 2349px;
+    background: #FFFFFF;
+    color: var(--primary-text-color);
+}
+.list {
+list-style: none;
+}
+/* header */
+.navigation-link:hover,
+.navigation-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color);
+}
+.principles-text, .worker-specialty {
+    color: var(--text-color);
+}
+.title-section, .title-principles, .worker-name {
+    color: var(--title-text-color);
+}
+.hero-button {
+    color: white;
+    background-color: var(--accent-color);
+}
