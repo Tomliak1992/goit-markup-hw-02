@@ -18,7 +18,9 @@ list-style: none;
 .navigation-link:hover,
 .navigation-link:focus,
 .contact-link:hover,
-.contact-link:focus {
+.contact-link:focus,
+.hero-button:hover,
+.hero-button:focus {
     color: var(--accent-color);
 }
 .principles-text, .worker-specialty {
