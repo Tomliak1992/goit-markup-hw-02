@@ -56,6 +56,7 @@ button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
+    background-color: #F5F4FA;
 }
 
 .logo, .logo-footer {
@@ -127,7 +128,6 @@ button {
 }
 
 .contact-link-adress {
-    font-style: normal;
     font-size: 14px;
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
