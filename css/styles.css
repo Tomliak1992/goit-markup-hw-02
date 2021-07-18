@@ -2,21 +2,18 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --text-color:  #757575;
-    --hero-name-color: #ffffff;
+    --wright-color: #ffffff;
 }
-.body {
+body {
     font-family: Roboto, sans-serif;
     font-weight: 400;
     background-color: #FFFFFF;
-    color: var(--title-text-color);
+    color: var(--text-color);
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.2;
 }
-a {
-    text-decoration: none;
-}
-button {
-    font-family: inherit;
-    cursor: pointer;
-}
+
 .list {
     list-style: none;
     }
@@ -30,10 +27,8 @@ button {
 .contact-link-adress:focus {
     color: var(--accent-color);
 }
-.principles-text, .worker-specialty, .filter-text {
-    color: var(--text-color);
-}
-.title-section, .title-principles, .worker-name, .filter-title {
+
+.title-section, .title-principles, .worker-name, .galery-title {
     color: var(--title-text-color);
 }
 
@@ -44,11 +39,13 @@ button {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    color: var(--hero-name-color);
+    color: var(--wright-color);
     background-color: var(--accent-color);
+    font-family: inherit;
+    cursor: pointer;
     }
 .filter-button:hover {
-    color: var(--hero-name-color);
+    color: var(--wright-color);
     background-color: var(--accent-color);
 }
 .filter-button {
@@ -57,29 +54,30 @@ button {
     font-size: 16px;
     line-height: 1.6;
     background-color: #F5F4FA;
+    font-family: inherit;
+    cursor: pointer;
 }
 
 .logo, .logo-footer {
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2;
-    color: var(--accent-color)
+    color: var(--accent-color);
+    text-decoration: none;
 }
-.logo-web {
+.logo-span {
     color: var(--title-text-color)
 }
 .navigation-link {
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.2;
     color: var(--title-text-color);
+    letter-spacing: 0.02em;
 }
 .contact-link {
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.2;
     color: var(--text-color);
+    text-decoration: none;
+    letter-spacing: 0.02em;
 }
 .hero, .footer {
     background-color: #2F303A;;
@@ -89,11 +87,11 @@ button {
     font-size: 44px;
     line-height: 1.36;  
     text-align: center;
-    color: var(--hero-name-color)
+    color: var(--wright-color);
+    letter-spacing: 0.06em;
 }
 .title-principles {
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.42;
 }
 .title-section {
@@ -110,25 +108,31 @@ button {
 }
 .worker-specialty {
     font-size: 16px;
-    line-height: 1.2;
 }
-.logo-footer-web, .address-text {
-    color: var(--hero-name-color);
+.logo-footer-span, .address-text {
+    color: var(--wright-color);
 }
 .address-text {
-    font-size: 14px;
     font-style: normal;
     line-height: 1.5;
-    letter-spacing: 0.03em;
 }
-.filter-title {
+.galery-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
 }
-
-.contact-link-adress {
-    font-size: 14px;
+.navigation .navigation-link.current {
+    color: var(--accent-color);
+}
+.footer-contact {
+    font-style: normal;
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.galery-link {
+    text-decoration: none;
+}
+.galery-text {
+    color: var(--text-color);
 }
